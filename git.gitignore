@@ -1,0 +1,14 @@
+# Ignore images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignore audio
+*.mp3
+*.wav
+*.ogg
+
+# Ignore entire folders
+images/
+audio/
