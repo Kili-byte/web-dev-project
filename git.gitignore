@@ -1,14 +1,19 @@
-# Ignore images
+# Ignore all images and media folders
+images/
+videos/
+media/
+
+# Ignore specific file types
 *.png
 *.jpg
 *.jpeg
 *.gif
+*.mp4
+*.mov
+*.avi
+*.psd
 
-# Ignore audio
-*.mp3
-*.wav
-*.ogg
-
-# Ignore entire folders
-images/
-audio/
+# Ignore VS Code and system junk
+.vscode/
+.DS_Store
+Thumbs.db
