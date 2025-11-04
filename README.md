@@ -11,4 +11,7 @@ Files produced :<br>
     9.Table Task <br>
     10.Expermint 3<br>
     11.Experiment 4<br>
-    12.Experiment 5
+    12.Experiment 5<br>
+    13.Practical ST -01<br>
+    14.Task 3<br>
+    15.Experiment 6 
