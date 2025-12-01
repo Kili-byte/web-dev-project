@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.title {
+    font-size: 30px;
+    color: #2d63e2;
+    font-weight: 600;  /* Slightly bold like the reference */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* ===== BLOCK CONTAINER ===== */
+.block-container {
+    border: 2px solid #5a8bff;
+    padding: 20px 25px;
+    border-radius: 10px;   /* LESS CURVE */
+    position: relative;
+}
+
+.block {
+    width: 140px;
+    background: #eaf0ff;
+    border: 2px solid #5a8bff;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border-radius: 10px;  /* LESS CURVE */
+    font-size: 17px;
+    font-weight: normal;  /* NOT bold */
+}
+
+.block:last-child {
+    margin-bottom: 0;
+}
+
+/* label sits OUTSIDE box at bottom */
+.block-container + .label {
+    margin-top: 12px;
+}
+
+/* ===== INLINE CONTAINER ===== */
+.inline-container {
+    border: 2px solid #eab443;
+    padding: 20px 25px;
+    border-radius: 10px; /* LESS CURVE */
+}
+
+.inline {
+    display: inline-block;
+    background: #fff3cd;
+    border: 2px solid #eab443;
+    padding: 15px 25px;
+    margin: 10px 18px;
+    border-radius: 10px; /* LESS CURVE */
+    font-size: 17px;
+    font-weight: normal; /* NOT bold */
+}
+
+/* label sits outside this container too */
+.inline-container + .label {
+    margin-top: 12px;
+}
+
+.label {
+    font-size: 16px;
+    color: #444;
+    font-weight: normal; /* NOT bold */
+}
+/* Blue inner boxes */
+.block {
+    width: 155px;       /* bigger */
+    padding: 18px 0;    /* taller */
+    border-radius: 4px;
+}
+
+/* Yellow inner boxes */
+.inline {
+    padding: 18px 32px; /* bigger */
+    border-radius: 4px;
+}
