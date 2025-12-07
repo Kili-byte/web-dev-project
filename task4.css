@@ -8,7 +8,7 @@ body {
 .title {
     font-size: 30px;
     color: #2d63e2;
-    font-weight: 600;  /* Slightly bold like the reference */
+    font-weight: 600;  
 }
 
 .wrapper {
@@ -18,11 +18,11 @@ body {
     gap: 50px;
 }
 
-/* ===== BLOCK CONTAINER ===== */
+
 .block-container {
     border: 2px solid #5a8bff;
     padding: 20px 25px;
-    border-radius: 10px;   /* LESS CURVE */
+    border-radius: 10px;  
     position: relative;
 }
 
