@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+ <title>Document</title>
 <style>
-    .cards-container {
+.cards-container {
     display: flex;
     justify-content: space-around;
     padding: 40px;
@@ -13,34 +10,37 @@
 
 .card {
     width: 260px;
+    flex-direction:column;
     background: white;
     padding: 25px;
     border-radius: 15px;
     text-align: center;
+display:flex;
+justify content : center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .circle {
     width: 90px;
     height: 90px;
-    background: #007bff;
+    background: blue;
     color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center ;
     font-size: 25px;
-    margin: 0 auto;
+    margin:15px;
 }
 
 .card h3 {
-    margin-top: 15px;
+    margin: 15px;
     font-weight: 700;
 }
 
 .card p {
-    margin-top: 5px;
-    color: #555;
+    margin: 15px;
+    color: grey;
 }
 </style>
 </head>
@@ -49,21 +49,21 @@
 <div class="cards-container">
 
     <div class="card">
-        <div class="circle" >JK</div>
-        <h3>Jeet Kumar</h3>
-        <p>B.Tech - CSE<br>Roll No: 21CS1007<br>1st Year</p>
+        <div class="circle" >YS</div>
+        <h3>YASHIKA SINGH</h3>
+        <p>Roll No. :1541019<br> Branch : CSE-DS<br>Year -1</p>
+    </div>
+
+    <div class="card">
+        <div class="circle">YRM</div>
+        <h3>YADAV RAJ MAHENDRA</h3>
+        <p>Roll No. :1540001 <br> Branch : CSE <br> Year - 1</p>
     </div>
 
     <div class="card">
         <div class="circle">AR</div>
-        <h3>Asha Rani</h3>
-        <p>B.Tech - IT<br>Roll No: 21IT1012<br>1st Year</p>
-    </div>
-
-    <div class="card">
-        <div class="circle">RK</div>
-        <h3>Rohit Kumar</h3>
-        <p>B.Tech - ECE<br>Roll No: 21EC1009<br>1st Year</p>
+        <h3>AAROHI RANJAN</h3>
+        <p>Roll No: 2541009<br>Branch -CSE-DS<br>Year-1</p>
     </div>
 
 </div>
