@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+
+  <header id="home" class="site-header">
+    <div class="container nav-row">
+      <div class="logo">Yashika Singh</div>
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="container hero">
+      <div class="hero-text">
+        <p class="tagline">Hello, I'm</p>
+        <h1>Yashika Singh</h1>
+        <p class="role">A Front‑End Web Developer</p>
+        <p class="hero-desc">
+          I build simple and responsive websites using HTML and CSS.
+        </p>
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+
+      <div class="hero-photo">
+        <img src="profile.png" alt="Photo" class ="photo-circle"/>
+      </div>
+  </header>
+
+  <section id="about" class="section section-dark">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            I am an aspiring web developer who enjoys creating clean, accessible web pages using
+            HTML and CSS. I focus on simple layouts and good structure.
+          </p>
+          <p>
+            I am also learning modern layout techniques like Flexbox and Grid to build responsive
+            designs.
+          </p>
+        </div>
+        <div class="about-box">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML5 &amp; semantic tags</li>
+            <li>CSS3, Flexbox &amp; Grid</li>
+            <li>Responsive design</li>
+            <li>Basic Git &amp; GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section section-mid">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>
+            A personal portfolio site built with only HTML and CSS to showcase my work.
+          </p>
+          <p class="tech">Tech: HTML, CSS, Flexbox</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Blog Layout</h3>
+          <p>
+            A simple blog layout with a list of posts, single post page, and sidebar.
+          </p>
+          <p class="tech">Tech: HTML, CSS</p>
+        </article>
+
+        <article class="project-card">
+          <h3>Registration Form</h3>
+          <p>
+            A clean registration form page with required fields and basic validation.
+          </p>
+          <p class="tech">Tech: HTML Forms, CSS</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-dark">
+    <div class="container contact-grid">
+      <div>
+        <h2 class="section-title">Contact</h2>
+        <p>
+          Want to work together or say hello? Fill out the form and I will reply as soon as I can.
+        </p>
+        <p class="contact-info">
+          Email: <span>yashikasingh200@gmail.com</span><br />
+          Location: <span>Ghaziabad,India</span>
+        </p>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name<span>*</span></label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email<span>*</span></label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject<span>*</span></label>
+          <input type="text" id="subject" name="subject" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message<span>*</span></label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Yashika Singh. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
